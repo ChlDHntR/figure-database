@@ -9,7 +9,7 @@ function App() {
   return (
     <Fragment>
       <div>
-        <h1>NOTHING</h1>
+        <h1>NOTHING2</h1>
       </div>
     </Fragment>
   )
