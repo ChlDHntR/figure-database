@@ -1,0 +1,18 @@
+{
+    "animal": [
+        {
+            "name": "human"
+        },
+        {
+            "name": "ape"
+        },        {
+            "name": "monkey"
+        },
+        {
+            "name": "cat"
+        },        
+        {
+            "name": "snake"
+        }
+    ]
+}
