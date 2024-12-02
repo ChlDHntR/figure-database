@@ -26,10 +26,26 @@ body {
 }
 #root .nav .DropDown {
   width: 300px;
+  max-height: 400px;
   background-color: white;
   color: black;
   top: 48px;
   position: absolute;
+  overflow-y: scroll;
+}
+#root .nav .DropDown ul {
+  margin: 0;
+  padding: 0 2px;
+}
+#root .nav .DropDown input:focus {
+  border: 1px solid green;
+}
+#root .nav .DropDown .search_item {
+  margin: 0;
+  list-style: none;
+}
+#root .nav .DropDown .search_item:hover {
+  background-color: rgb(208, 203, 203);
 }
 
 /*# sourceMappingURL=App.css.map */

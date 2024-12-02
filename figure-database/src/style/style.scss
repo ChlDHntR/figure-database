@@ -24,12 +24,30 @@ body {
     }
     .DropDown {
       width: 300px;
+      max-height: 400px;
       background-color: white;
-      
       color: black;
       top: 48px;
       position: absolute;
+      overflow-y: scroll;
+      ul {
+        margin: 0;
+        padding: 0 2px;
+      }
+      input:focus {
+        border: 1px solid green;
+      }
+      .search_item {
+        margin: 0;
+        list-style: none;
+      }
+      .search_item:hover {
+        background-color: rgb(208, 203, 203);
+
+      }
     }
+
+
   }
 
 }
