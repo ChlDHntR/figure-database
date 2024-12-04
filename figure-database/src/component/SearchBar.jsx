@@ -1,8 +1,8 @@
 import { useState } from 'react'
 
-function InputBar({className, placeholder, handleSearch}) {
+function InputBar({className, placeholder, value, handleSearch}) {
     return (
-        <input placeholder={placeholder} className= {className} type="text" onChange={handleSearch} />
+        <input value={value} placeholder={placeholder} className= {className} type="text" onChange={handleSearch} />
     )
 }
 

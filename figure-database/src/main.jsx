@@ -8,6 +8,7 @@ import axios from 'axios'
 axios
 .get("https://studies.cs.helsinki.fi/restcountries/api/all")
 .then((response) => {
+  console.log(response.data)
   createRoot(document.getElementById('root')).render(
     <App data={response.data} />,
 )

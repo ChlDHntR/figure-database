@@ -13,41 +13,87 @@ body {
   .nav {
     height: 48px;
     display: flex;
-    align-items: normal;
+    align-items: center;
     position: relative;
-    .searchBar {
-      height: 1.5rem;
-      width: 300px;
-      border-radius: 10px;
-      border: none;
-      margin: auto 0;
+    background-color: rgb(58, 58, 58);
+    justify-content: center ;
+    .searchBar_wrapper {
+      position: relative;
+      display: flex;
+      .searchBar {
+        height: 1.5rem;
+        width: 300px;
+        border-radius: 10px;
+        border: none;
+        margin: auto 0;
+  
+      }
+      .DropDown {
+        width: 300px;
+        max-height: 400px;
+        background-color: white;
+        color: black;
+        top: 35px;
+        position: absolute;
+        overflow-y: scroll;
+        ul {
+          margin: 0;
+          padding: 0 2px;
+          li {
+            .DropDown_item {
+              display: flex;
+              flex-direction: row;
+              img {
+                margin: auto;
+                display: block;
+                width: 50px;
+                height: 50px;
+                margin: 0 10px;
+                object-fit: cover;
+              }
+            }
+          }
+        }
+        input:focus {
+          border: 1px solid green;
+        }
+        .search_item {
+          margin: 0;
+          list-style: none;
+          transition: all 0.2s;
+        }
+        .search_item:hover {
+          background-color: rgb(208, 203, 203);
+        }
+      }
+    } 
+  }
+}
+
+//TEST
+
+.Country_PopUp {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  max-width: 600px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  .Flag {
+    display: block;
+    width: 200px;
+    margin: 0 20px;
+    img {
+      position: relative;
+      max-width: 100%;
+      top: 20%;
+      object-fit: contain;
+      //transform: translateY(-50%);
     }
-    .DropDown {
-      width: 300px;
-      max-height: 400px;
-      background-color: white;
-      color: black;
-      top: 48px;
-      position: absolute;
-      overflow-y: scroll;
-      ul {
-        margin: 0;
-        padding: 0 2px;
-      }
-      input:focus {
-        border: 1px solid green;
-      }
-      .search_item {
-        margin: 0;
-        list-style: none;
-      }
-      .search_item:hover {
-        background-color: rgb(208, 203, 203);
-
-      }
-    }
-
-
   }
 
 }
