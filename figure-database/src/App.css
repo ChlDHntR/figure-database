@@ -11,6 +11,10 @@ body {
   height: 100%;
   margin: 0;
 }
+#root .import {
+  color: white;
+  background-color: gray;
+}
 #root .nav {
   height: 48px;
   display: flex;
@@ -18,6 +22,7 @@ body {
   position: relative;
   background-color: rgb(58, 58, 58);
   justify-content: center;
+  color: white;
 }
 #root .nav .searchBar_wrapper {
   position: relative;
@@ -66,7 +71,6 @@ body {
 #root .nav .searchBar_wrapper .DropDown .search_item:hover {
   background-color: rgb(208, 203, 203);
 }
-
 .Country_PopUp {
   background-color: black;
   color: white;
@@ -78,6 +82,9 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.Country_PopUp h1 {
+  font-size: 20px;
+}
 .Country_PopUp .Flag {
   display: block;
   width: 200px;
@@ -86,8 +93,9 @@ body {
 .Country_PopUp .Flag img {
   position: relative;
   max-width: 100%;
+  max-height: 100px;
   top: 20%;
-  object-fit: contain;
+  object-fit: fill;
 }
 
 /*# sourceMappingURL=App.css.map */

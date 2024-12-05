@@ -3,10 +3,10 @@ function DropDown({data, handleClick}) {
         <div className="DropDown">
             <ul>
                 {data.map((element, index) => 
-                    <li onClick={() => handleClick(element.name.common)} className="search_item" key={element.name.common}> 
+                    <li onClick={() => handleClick(element.name)} className="search_item" key={element.name}> 
                         <div className="DropDown_item"> 
-                            <img src={element.flags.svg} alt="" />
-                            <p>{element.name.common}</p> 
+                            <img src={element.image} alt="" />
+                            <p>{element.name}</p> 
                         </div> 
                     </li>)}
             </ul>

@@ -1,10 +1,9 @@
 import { Fragment, useState, useEffect, useRef } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import { InputBar } from './component/SearchBar.jsx'
 import { DropDown } from './component/DropDown.jsx'
-import { PopUp } from './component/TestComponents.jsx'
+import { PopUp } from './component/PopUp.jsx'
+import { Import } from './component/Import.jsx';
 
 function App({data}) {
   const [ searchValue, setSearchValue] = useState("")
@@ -14,11 +13,14 @@ function App({data}) {
   const currentPopUp = useRef(null)
 
 
+
   const onClick = (name) => {
-    currentPopUp.current = data.find(element => element.name.common === name)
+    currentPopUp.current = data.find(element => element.name === name)
     console.log(currentPopUp.current)
     setPopUp(true)
   }
+
+
 
 
   useEffect(() => {
@@ -34,7 +36,7 @@ function App({data}) {
       setShowdrop(false)
       return
     }
-    let newList = data.filter(element => element.name.common.toLowerCase().includes(e.target.value.toLowerCase()))
+    let newList = data.filter(element => element.name.toLowerCase().includes(e.target.value.toLowerCase()))
     setSearchList([...newList])
     if (newList.length >= 8) {
         setShowdrop(true)

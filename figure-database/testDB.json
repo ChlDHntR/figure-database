@@ -1,18 +1,28 @@
 {
-    "animal": [
-        {
-            "name": "human"
-        },
-        {
-            "name": "ape"
-        },        {
-            "name": "monkey"
-        },
-        {
-            "name": "cat"
-        },        
-        {
-            "name": "snake"
-        }
-    ]
+  "figures": [
+    {
+      "id": 1,
+      "name": "drunk ass cat",
+      "image": "https://i.imgflip.com/1iiiq3.jpg?a481320",
+      "brand": "orange",
+      "date": "2024-12-18",
+      "price": "9999999 jpy"
+    },
+    {
+      "id": 2,
+      "name": "absolute cinema",
+      "image": "https://pbs.twimg.com/media/GPijvznW4AA6ZLb.png",
+      "brand": "cinema",
+      "date": "2024-12-08",
+      "price": "1 jpy"
+    },
+    {
+      "id": 3,
+      "name": "doggo",
+      "image": "https://i.imgur.com/rL8PG3k.jpeg",
+      "brand": "don know",
+      "date": "2024-12-08",
+      "price": "5000 jpy"
+    }
+  ]
 }
