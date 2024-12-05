@@ -23,6 +23,14 @@
       "brand": "don know",
       "date": "2024-12-08",
       "price": "5000 jpy"
+    },
+    {
+      "id": 4,
+      "name": "no name",
+      "image": "",
+      "brand": "no brand",
+      "date": "2024-09-12",
+      "price": "unknown"
     }
   ]
 }

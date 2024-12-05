@@ -4,6 +4,7 @@ import { InputBar } from './component/SearchBar.jsx'
 import { DropDown } from './component/DropDown.jsx'
 import { PopUp } from './component/PopUp.jsx'
 import { Import } from './component/Import.jsx';
+import { Link } from 'react-router-dom'
 
 function App({data}) {
   const [ searchValue, setSearchValue] = useState("")
@@ -53,6 +54,9 @@ function App({data}) {
     <Fragment>
       <div className='nav'>
         <div className="searchBar_wrapper">
+          <div className="nav_link">
+            <Link to='/import'>IMPORT</Link>
+          </div>
           <InputBar value={searchValue} placeholder={"Search..."} className={"searchBar"}  handleSearch={handleSearch}></InputBar>
           {showdrop && <DropDown data={searchList} handleClick={onClick}></DropDown>}
         </div>

@@ -28,6 +28,18 @@ body {
   position: relative;
   display: flex;
 }
+#root .nav .searchBar_wrapper .nav_link {
+  display: block;
+  margin: 0 30px;
+  border: 1px solid white;
+  width: 80px;
+  align-content: center;
+  text-align: center;
+  border-radius: 10px;
+}
+#root .nav .searchBar_wrapper .nav_link a {
+  color: white;
+}
 #root .nav .searchBar_wrapper .searchBar {
   height: 1.5rem;
   width: 300px;

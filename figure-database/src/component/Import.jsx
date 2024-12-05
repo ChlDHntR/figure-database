@@ -10,7 +10,12 @@ function Import({data}) {
     const [figureList, setFigureList] = useState(data.map(element => element.name))
 
 
-    const handleClick = () => {
+    const handleClick = (e) => {
+        e.preventDefault()
+        if (figureList.find(element => element === name)) {
+            alert('This figure is already in the list')
+            return
+        }
         let newData = {
             name: name,
             image: image,
