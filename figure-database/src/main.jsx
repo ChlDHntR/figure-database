@@ -18,12 +18,7 @@ axios
   .then((response) => {
     console.log(response.data);
     createRoot(document.getElementById("root")).render(
-        <Router>
-          <Routes>
-            <Route path="/import" element={<Import data={response.data}></Import>} />
-            <Route path="/" element={ <App data={response.data} />}></Route>
-          </Routes>
-        </Router>
+        <App data={response.data} />
     );
   })
   .catch((err) => {

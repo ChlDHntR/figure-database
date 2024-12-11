@@ -23,24 +23,24 @@ body {
     background-color: rgb(58, 58, 58);
     justify-content: center ;
     color: white;
+    .nav_link {
+      display: block;
+      margin: 0 30px;
+      border: 1px solid white;
+      width: 80px;
+      align-content: center;
+      text-align: center;
+      border-radius: 10px;
+      a {
+        color: white;
+      }
+    }
+    .nav_link:visited {
+      color: white;
+    }
     .searchBar_wrapper {
       position: relative;
       display: flex;
-      .nav_link {
-        display: block;
-        margin: 0 30px;
-        border: 1px solid white;
-        width: 80px;
-        align-content: center;
-        text-align: center;
-        border-radius: 10px;
-        a {
-          color: white;
-        }
-      }
-      .nav_link:visited {
-
-      }
       .searchBar {
         height: 1.5rem;
         width: 300px;

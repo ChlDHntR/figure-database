@@ -47,7 +47,7 @@ function Import({data}) {
             <input type="text" value={price} onChange={(e) => setPrice(e.target.value)} /><br />
             <button onClick={handleClick} >Import</button>
             <ul>
-                {figureList.map(element => <li>{element}</li>)}
+                {figureList.map(element => <li key={element} >{element}</li>)}
             </ul>
 
         </div>
