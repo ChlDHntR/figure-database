@@ -1,4 +1,4 @@
-import { Fragment, useState, useEffect, useRef } from 'react'
+import { Fragment, useState, useEffect, useRef, useMemo, useCallback } from 'react'
 import { InputBar } from './SearchBar.jsx'
 import { DropDown } from './DropDown.jsx'
 import { PopUp } from './PopUp.jsx'
@@ -9,27 +9,11 @@ function NavBar({data}) {
   const [ searchList, setSearchList] = useState([])
   const [ showdrop, setShowdrop ] = useState(true)
   const [ popUp, setPopUp ] = useState(false)
+  const [ isFocus, setIsFocus] = useState(false)
+
   const currentPopUp = useRef(null)
 
-
-
-  const onClick = (name) => {
-    currentPopUp.current = data.find(element => element.name === name)
-    console.log(currentPopUp.current)
-    setPopUp(true)
-  }
-
-
-
-
-  useEffect(() => {
-    let searchItem = document.querySelectorAll('.search_item')
-    searchItem.forEach(element => element.addEventListener('click', () => {return}))
-
-    return () => searchItem.forEach(element => element.removeEventListener('click', () => {return}))
-  }, [searchList])
-
-  const handleSearch = (e) => {
+  const handleSearch = useCallback((e) => {
     setSearchValue(e.target.value)
     if (e.target.value === "") {
       setShowdrop(false)
@@ -44,8 +28,20 @@ function NavBar({data}) {
         setShowdrop(true)
     }
     
+  }, [data]) 
+
+  const onClick = (name) => {
+    currentPopUp.current = data.find(element => element.name === name)
+    console.log(currentPopUp.current)
+    setPopUp(true)
   }
 
+  const handleFocus = () => {
+    setIsFocus(true)
+  }
+  const handleBlur = () => {
+    setIsFocus(false)
+  }
 
 
   return (
@@ -55,8 +51,15 @@ function NavBar({data}) {
             <Link to='/import'>IMPORT</Link>
         </div>
         <div className="searchBar_wrapper">
-          <InputBar value={searchValue} placeholder={"Search..."} className={"searchBar"}  handleSearch={handleSearch}></InputBar>
-          {showdrop && <DropDown data={searchList} handleClick={onClick}></DropDown>}
+          <InputBar value={searchValue} 
+            placeholder={"Search..."} 
+            className={"searchBar"}  
+            handleSearch={handleSearch}
+            handleFocus={handleFocus}
+            handleBlur={handleBlur}
+          >
+          </InputBar>
+          {(showdrop && isFocus) && <DropDown data={searchList} handleClick={onClick}></DropDown>}
         </div>
       </div>
       {popUp && <PopUp props={currentPopUp.current} handleClose={() => setPopUp(false)} />}

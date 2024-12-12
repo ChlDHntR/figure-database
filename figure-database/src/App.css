@@ -86,6 +86,32 @@ body {
 #root .nav .searchBar_wrapper .DropDown .search_item:hover {
   background-color: rgb(208, 203, 203);
 }
+#root .Main_wrapper {
+  width: 100%;
+  background-color: black;
+}
+#root .Main_wrapper .slider_wrapper {
+  width: 70%;
+  height: 250px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: gray;
+  overflow: auto;
+}
+#root .Main_wrapper .slider_wrapper .slider_item {
+  margin: 10px;
+  height: 230px;
+  width: 230px;
+  display: block;
+}
+#root .Main_wrapper .slider_wrapper .slider_item img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
 .Country_PopUp {
   background-color: black;
   color: white;
