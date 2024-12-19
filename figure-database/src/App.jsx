@@ -1,5 +1,5 @@
 import { Fragment, useState, useEffect, useRef } from 'react'
-import './App.css'
+import './style/style.scss'
 import { BrowserRouter as Router, Link, Routes, Route } from 'react-router-dom'
 import { Import } from './component/Import.jsx';
 import Main from './component/Main.jsx';

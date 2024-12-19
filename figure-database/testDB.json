@@ -1,7 +1,7 @@
 {
   "figures": [
     {
-      "id": 1,
+      "id": "1",
       "name": "drunk ass cat",
       "image": "https://i.imgflip.com/1iiiq3.jpg?a481320",
       "brand": "orange",
@@ -9,7 +9,7 @@
       "price": "9999999 jpy"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "absolute cinema",
       "image": "https://pbs.twimg.com/media/GPijvznW4AA6ZLb.png",
       "brand": "cinema",
@@ -17,7 +17,7 @@
       "price": "1 jpy"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "doggo",
       "image": "https://i.imgur.com/rL8PG3k.jpeg",
       "brand": "don know",
@@ -25,12 +25,36 @@
       "price": "5000 jpy"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "no name",
-      "image": "",
+      "image": "https://picsum.photos/id/175/367/267",
       "brand": "no brand",
       "date": "2024-09-12",
       "price": "unknown"
+    },
+    {
+      "id": 5,
+      "name": "laptop",
+      "image": "https://picsum.photos/id/8/367/267",
+      "brand": "",
+      "date": "",
+      "price": ""
+    },
+    {
+      "id": 6,
+      "name": "boat",
+      "image": "https://picsum.photos/id/124/367/267",
+      "brand": "",
+      "date": "",
+      "price": ""
+    },
+    {
+      "id": 7,
+      "name": "bike",
+      "image": "https://picsum.photos/id/146/367/267",
+      "brand": "",
+      "date": "",
+      "price": ""
     }
   ]
 }

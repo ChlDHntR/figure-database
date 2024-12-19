@@ -7,7 +7,9 @@ function Import({data}) {
     const [brand, setBrand] = useState("")
     const [date, setDate] = useState("")
     const [price, setPrice] = useState("")
+
     const [figureList, setFigureList] = useState(data.map(element => element.name))
+
 
 
     const handleClick = (e) => {
@@ -33,8 +35,8 @@ function Import({data}) {
 
 
     return (
-        <div className="import">
-            <label>Name: </label>
+        <div>
+             <label>Name: </label>
             <input type="text" value={name} onChange={(e) => setName(e.target.value)} /> <br />
             <label>Image: </label>
             <input type="text" value={image} onChange={(e) => setImage(e.target.value)} /><br />
@@ -49,7 +51,6 @@ function Import({data}) {
             <ul>
                 {figureList.map(element => <li key={element} >{element}</li>)}
             </ul>
-
         </div>
 
     )
