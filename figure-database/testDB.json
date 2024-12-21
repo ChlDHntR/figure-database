@@ -1,60 +1,229 @@
 {
   "figures": [
     {
-      "id": "1",
-      "name": "drunk ass cat",
-      "image": "https://i.imgflip.com/1iiiq3.jpg?a481320",
-      "brand": "orange",
-      "date": "2024-12-18",
-      "price": "9999999 jpy"
+      "id": 1,
+      "name": "Arknights Surtr Liberte//Echec VER. 1/7 Complete Figure",
+      "image": "https://img.amiami.com/images/product/main/233/FIGURE-160481.jpg",
+      "series": "Arknights",
+      "brand": "Good Smile Arts Shanghai",
+      "date": "2024-10-21",
+      "price": "21200"
     },
     {
-      "id": "2",
-      "name": "absolute cinema",
-      "image": "https://pbs.twimg.com/media/GPijvznW4AA6ZLb.png",
-      "brand": "cinema",
-      "date": "2024-12-08",
-      "price": "1 jpy"
+      "id": 2,
+      "name": "Arknights Dusk 1/7 Complete Figure",
+      "image": "https://img.amiami.com/images/product/main/244/FIGURE-177370.jpg",
+      "series": "Arknights",
+      "brand": "Alter",
+      "date": "2025-12-01",
+      "price": "34980"
     },
     {
-      "id": "3",
-      "name": "doggo",
-      "image": "https://i.imgur.com/rL8PG3k.jpeg",
-      "brand": "don know",
-      "date": "2024-12-08",
-      "price": "5000 jpy"
+      "id": 3,
+      "name": "Blue Archive Mari (Sportswear) Memorial Lobby Ver. 1/7 Complete Figure",
+      "image": "https://img.amiami.com/images/product/main/243/FIGURE-176068.jpg",
+      "series": "Blue Archive",
+      "brand": "Plum",
+      "date": "2025-01-16",
+      "price": "25300"
     },
     {
-      "id": "4",
-      "name": "no name",
-      "image": "https://picsum.photos/id/175/367/267",
-      "brand": "no brand",
-      "date": "2024-09-12",
-      "price": "unknown"
+      "id": 4,
+      "name": "Honkai: Star Rail March 7th 1/7 Complete Figure",
+      "image": "https://img.amiami.com/images/product/main/243/FIGURE-173082.jpg",
+      "series": "Honkai Star Rail",
+      "brand": "APEX",
+      "date": "2025-07-23",
+      "price": "28160"
     },
     {
       "id": 5,
-      "name": "laptop",
-      "image": "https://picsum.photos/id/8/367/267",
-      "brand": "",
-      "date": "",
-      "price": ""
+      "name": "rurudo \"EVE SWEET TOXIC_Ver.\" 1/6 Complete Figure",
+      "image": "https://img.amiami.com/images/product/main/244/FIGURE-178874.jpg",
+      "series": "original",
+      "brand": "Pink Charm",
+      "date": "2025-07-14",
+      "price": "27800"
     },
     {
       "id": 6,
-      "name": "boat",
-      "image": "https://picsum.photos/id/124/367/267",
-      "brand": "",
-      "date": "",
-      "price": ""
+      "name": "Acid Rain 1/18 Scale FAV-A125 Kaiho Umigaru",
+      "image": "https://img.amiami.com/images/product/main/244/FIGURE-179477.jpg",
+      "series": "original",
+      "brand": "Acid Rain",
+      "date": "2025-07-03",
+      "price": "7000"
     },
     {
       "id": 7,
-      "name": "bike",
-      "image": "https://picsum.photos/id/146/367/267",
-      "brand": "",
-      "date": "",
-      "price": ""
+      "name": "Catragon A",
+      "image": "https://img.amiami.com/images/product/main/244/FIGURE-179497.jpg",
+      "series": "original",
+      "brand": "JXK Studio",
+      "date": "2025-03-13",
+      "price": "7000"
+    },
+    {
+      "id": 8,
+      "name": "Cirno illustration by Uuzan 1/7 Complete Figure",
+      "image": "https://img.amiami.com/images/product/main/241/FIGURE-168099.jpg",
+      "series": "Touhou Project",
+      "brand": "FURYU",
+      "date": "2024-12-19",
+      "price": "20350"
+    },
+    {
+      "id": 9,
+      "name": "Touhou Project Flandre Scarlet Complete Figure",
+      "image": "https://img.amiami.com/images/product/main/222/FIGURE-138977.jpg",
+      "series": "Touhou",
+      "brand": "Alter",
+      "date": "2023-05-14",
+      "price": "35000"
+    },
+    {
+      "id": 10,
+      "name": "Touhou Project Reimu Hakurei Wonderful Shrine Maiden of Paradise ver. 1/7 Complete Figure",
+      "image": "https://img.amiami.com/images/product/main/233/FIGURE-160360.jpg",
+      "series": "Touhou",
+      "brand": "Solarain",
+      "date": "2024-09-24",
+      "price": "27500"
+    },
+    {
+      "id": 11,
+      "name": "Blue Archive Hibiki (Cheerleader) PVC Figure (1:7 Scale)",
+      "image": "https://img.amiami.com/images/product/main/243/FIGURE-173068.jpg",
+      "series": "Blue Archive",
+      "brand": "GOLDENHEAD+",
+      "date": "2025-06-08",
+      "price": "19965"
+    },
+    {
+      "id": 12,
+      "name": "Blue Archive Alice (Maid) 1/7 Complete Figure",
+      "image": "https://img.amiami.com/images/product/main/234/FIGURE-162413.jpg",
+      "series": "Blue Archive",
+      "brand": "Good Smile Company",
+      "date": "2024-11-01",
+      "price": "18900"
+    },
+    {
+      "id": 13,
+      "name": "Arknights Skadi The Corrupting Heart Elite 2 ver. 1/7 Complete Figure DELUXE Edition",
+      "image": "https://img.amiami.com/images/product/review/231/FIGURE-150827_03.jpg",
+      "series": "Arknights",
+      "brand": "Myethos",
+      "date": "2024-01-04",
+      "price": "50600"
+    },
+    {
+      "id": 14,
+      "name": "Arknights Schwarz Elite 2 Ver. 1/7 Complete Figure",
+      "image": "https://img.amiami.com/images/product/review/223/FIGURE-144971_01.jpg",
+      "series": "Arknights",
+      "brand": "Alter",
+      "date": "2023-09-02",
+      "price": "45980"
+    },
+    {
+      "id": 15,
+      "name": "Girls' Frontline UMP45 Lop-eared Agent Ver. 1/7 Complete Figure",
+      "image": "https://img.amiami.com/images/product/review/232/FIGURE-153749_13.jpg",
+      "series": "Girls' Frontline",
+      "brand": "HOBBY MAX",
+      "date": "2024-11-10",
+      "price": "20460"
+    },
+    {
+      "id": 16,
+      "name": "Girls' Frontline G11 Mind Eraser 1/7 Scale PVC Figure Ver.",
+      "image": "https://img.amiami.com/images/product/main/234/FIGURE-164292.jpg",
+      "series": "Girls' Frontline",
+      "brand": "HOBBY MAX",
+      "date": "2025-02-04",
+      "price": "29150"
+    },
+    {
+      "id": 17,
+      "name": "Girls' Frontline HK 416 Black Cat's Present Ver. 1/7 Complete Figure",
+      "image": "https://img.amiami.com/images/product/main/204/FIGURE-120105.jpg",
+      "series": "Girls' Frontline",
+      "brand": "HOBBY MAX",
+      "date": "2021-07-14",
+      "price": "14850"
+    },
+    {
+      "id": 18,
+      "name": "Girls' Frontline UMP40 Moon River Ver. 1/7 Complete Figure",
+      "image": "https://img.amiami.com/images/product/main/234/FIGURE-163476.jpg",
+      "series": "Girls' Frontline",
+      "brand": "HOBBY MAX",
+      "date": "2025-02-06",
+      "price": "29150"
+    },
+    {
+      "id": 19,
+      "name": "Genshin Impact Klee Spark Knight Ver. 1/7 Complete Figure",
+      "image": "https://img.amiami.com/images/product/main/212/FIGURE-126186.jpg",
+      "series": "Genshin Impact",
+      "brand": "miHoYo",
+      "date": "2021-12-01",
+      "price": "19800"
+    },
+    {
+      "id": 20,
+      "name": "Genshin Impact Ningguang Gold Leaf and Pearly Jade Ver. 1/7 Complete Figure",
+      "image": "https://img.amiami.com/images/product/main/213/FIGURE-130184.jpg",
+      "series": "Genshin Impact",
+      "brand": "miHoYo",
+      "date": "2022-09-23",
+      "price": "30250"
+    },
+    {
+      "id": 21,
+      "name": "Game Characters Collection DX Persona 4 The Golden Izanagi Ver.2 Complete Figure",
+      "image": "https://img.amiami.com/images/product/main/244/FIGURE-177581.jpg",
+      "series": "Persona 4",
+      "brand": "MegaHouse",
+      "date": "2024-03-06",
+      "price": "28380"
+    },
+    {
+      "id": 22,
+      "name": "ARTFX J Persona 5: Dancing Star Night Protagonist & Morgana 1/8 Complete Figure",
+      "image": "https://img.amiami.com/images/product/main/184/FIGURE-045085.jpg",
+      "series": "Persona 5",
+      "brand": "Kotobukiya",
+      "date": "2019-05-08",
+      "price": "15180"
+    },
+    {
+      "id": 23,
+      "name": "Persona 3 the Movie: Makoto Yuki",
+      "image": "https://img.amiami.com/images/product/main/163/FIGURE-023024.jpg",
+      "series": "Persona 3",
+      "brand": "Max Factory",
+      "date": "2017-04-14",
+      "price": "6600"
+    },
+    {
+      "id": 24,
+      "name": "Persona 5 - Futaba Sakura 1/7 Complete Figure",
+      "image": "https://img.amiami.com/images/product/main/172/FIGURE-030250.jpg",
+      "series": "Persona 5",
+      "brand": "Phat Company",
+      "date": "2018-03-11",
+      "price": "13200"
+    },
+    {
+      "id": 25,
+      "name": "Zenless Zone Zero Nekomiya Mana 1/7 Complete Figure",
+      "image": "https://img.amiami.com/images/product/main/244/FIGURE-179736.jpg",
+      "series": "Zenless Zone Zero",
+      "brand": "APEX",
+      "date": "2025-12-11",
+      "price": "23100"
     }
   ]
 }
