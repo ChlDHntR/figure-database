@@ -225,5 +225,132 @@
       "date": "2025-12-11",
       "price": "23100"
     }
+  ],
+  "rating": [
+    {
+      "id": 1,
+      "vote": [],
+      "weight": 0
+    },
+    {
+      "id": 8,
+      "vote": [],
+      "weight": 0
+    },
+    {
+      "id": 9,
+      "vote": [],
+      "weight": 0
+    },
+    {
+      "id": 10,
+      "vote": [],
+      "weight": 0
+    },
+    {
+      "id": 2,
+      "vote": [],
+      "weight": 0
+    },
+    {
+      "id": 3,
+      "vote": [],
+      "weight": 0
+    },
+    {
+      "id": 11,
+      "vote": [],
+      "weight": 0
+    },
+    {
+      "id": 4,
+      "vote": [],
+      "weight": 0
+    },
+    {
+      "id": 12,
+      "vote": [],
+      "weight": 0
+    },
+    {
+      "id": 13,
+      "vote": [],
+      "weight": 0
+    },
+    {
+      "id": 14,
+      "vote": [],
+      "weight": 0
+    },
+    {
+      "id": 15,
+      "vote": [],
+      "weight": 0
+    },
+    {
+      "id": 16,
+      "vote": [],
+      "weight": 0
+    },
+    {
+      "id": 5,
+      "vote": [],
+      "weight": 0
+    },
+    {
+      "id": 17,
+      "vote": [],
+      "weight": 0
+    },
+    {
+      "id": 18,
+      "vote": [],
+      "weight": 0
+    },
+    {
+      "id": 6,
+      "vote": [],
+      "weight": 0
+    },
+    {
+      "id": 19,
+      "vote": [],
+      "weight": 0
+    },
+    {
+      "id": 20,
+      "vote": [],
+      "weight": 0
+    },
+    {
+      "id": 7,
+      "vote": [],
+      "weight": 0
+    },
+    {
+      "id": 21,
+      "vote": [],
+      "weight": 0
+    },
+    {
+      "id": 22,
+      "vote": [],
+      "weight": 0
+    },
+    {
+      "id": 23,
+      "vote": [],
+      "weight": 0
+    },
+    {
+      "id": 24,
+      "vote": [],
+      "weight": 0
+    },
+    {
+      "id": 25,
+      "vote": [],
+      "weight": 0
+    }
   ]
 }
