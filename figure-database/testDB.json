@@ -377,5 +377,12 @@
       "vote": [],
       "weight": 0
     }
+  ],
+  "users": [
+    {
+      "userID": 0,
+      "username": "testuser",
+      "pwd": "Farewell"
+    }
   ]
 }

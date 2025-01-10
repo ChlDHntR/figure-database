@@ -87,6 +87,23 @@ body {
         }
       }
     }
+    .TopRLoginBtn {
+      border: 1px solid lightskyblue;
+      border-radius: 10px;
+      text-align: center;
+      height: 1.5rem;
+      margin: 30px;
+      p {
+        margin: 0;
+      }
+      .loginBtn {
+        margin: 0 1rem;
+      }
+    }
+    .TopRLoginBtn:hover {
+      cursor: pointer;
+    }
+
     .user {
     }
   }
@@ -148,8 +165,33 @@ body {
       }
     }
   }
-
   //////////// FIGURE PAGE ////////////
+  //////////// FIGURE PAGE ////////////
+  //////////// LOGIN PAGE ////////////
+  .loginBox {
+    width: 400px;
+    height: 400px;
+    margin: 100px auto;
+    border: 5px solid lightblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .input {
+      margin-bottom: 20px;
+    }
+    button {
+      background-color: white;
+      color: lightblue;
+      border: 2px solid lightblue;
+    }
+    button:hover {
+      background-color: lightblue;
+      color: white;
+    }
+  }
+  //////////// LOGIN PAGE ////////////
 }
 
 //TEST
