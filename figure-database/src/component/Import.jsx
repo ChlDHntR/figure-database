@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import axios from 'axios'
+import server from '../axios/server'
 
 function Import({ data }) {
   const [name, setName] = useState('')
@@ -28,7 +28,7 @@ function Import({ data }) {
     }
     setFigureList((prev) => [...prev, name])
 
-    axios.post('http://localhost:3001/figures', newData).then((response) => alert('success'))
+    server.post('figures', newData).then((response) => alert('success'))
   }
 
   return (

@@ -6,7 +6,7 @@ import { PopUp } from './PopUp.jsx'
 import { Link } from 'react-router-dom'
 import TopRLoginBtn from './TopRLoginBtn.jsx'
 import { UserAuthContext } from '../context/UserAuthProvider.jsx'
-
+import LoginPage from './LoginPage.jsx'
 
 function NavBar({ data }) {
   const navigate = useNavigate()
@@ -16,7 +16,6 @@ function NavBar({ data }) {
   const [popUp, setPopUp] = useState(false)
   const [isFocus, setIsFocus] = useState(false)
   const { currUser } = useContext(UserAuthContext)
-  console.log(currUser)
 
   const currentPopUp = useRef(null)
 
@@ -51,29 +50,47 @@ function NavBar({ data }) {
     setIsFocus(false)
   }
   const handleLoginBtn = () => {
-    navigate('/login')
-  } 
+    setPopUp(true)
+  }
 
   return (
     <Fragment>
+      {popUp && (
+        <PopUp
+          props={currentPopUp.current}
+          handleClose={() => setPopUp(false)}
+          children={<LoginPage setPopUp={setPopUp} />}
+        />
+      )}
       <div className='nav'>
-        <div className='nav_link'>
-          <Link to='/import'>IMPORT</Link>
+        <h1 onClick={() => navigate('/')}>FigureDB</h1>
+        <div className='multi'>
+          <div className='searchBar_wrapper'>
+            <InputBar
+              value={searchValue}
+              placeholder={'キーワード検索'}
+              className={'searchBar'}
+              handleSearch={handleSearch}
+              handleFocus={handleFocus}
+              //handleBlur={handleBlur}
+            ></InputBar>
+            {showdrop && isFocus && (
+              <DropDown
+                data={searchList}
+                handleClick={() => {
+                  handleBlur()
+                  setSearchValue('')
+                  setSearchList([])
+                }}
+              ></DropDown>
+            )}
+          </div>
+          <TopRLoginBtn user={currUser} onLogin={handleLoginBtn} />
+          <div className='nav_link'>
+            <Link to='/import'>IMPORT</Link>
+          </div>
         </div>
-        <div className='searchBar_wrapper'>
-          <InputBar
-            value={searchValue}
-            placeholder={'キーワード検索'}
-            className={'searchBar'}
-            handleSearch={handleSearch}
-            handleFocus={handleFocus}
-            handleBlur={handleBlur}
-          ></InputBar>
-          {showdrop && isFocus && <DropDown data={searchList} handleClick={onClick}></DropDown>}
-        </div>
-        <TopRLoginBtn user={currUser} onLogin={handleLoginBtn} />
       </div>
-      {popUp && <PopUp props={currentPopUp.current} handleClose={() => setPopUp(false)} />}
     </Fragment>
   )
 }

@@ -1,7 +1,7 @@
 import { useRef, useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 
-function Slider({ data, setShowPopUp }) {
+function Slider({ data, setShowPopUp, interval }) {
   const [isDown, setIsDown] = useState(false)
   const boxRef = useRef(null)
   const wrapperRef = useRef(null)
@@ -17,7 +17,7 @@ function Slider({ data, setShowPopUp }) {
       if (isDown) return
       if (boxRef.current.getBoundingClientRect().x - wrapperX < -250 * (data.length - 6)) return
       boxRef.current.style.left = `${boxRef.current.getBoundingClientRect().x - wrapperX - 250}px`
-    }, 3000)
+    }, interval)
     window.addEventListener('mousemove', handleMouseMove)
     window.addEventListener('mouseup', handleMouseUp)
 
@@ -49,7 +49,6 @@ function Slider({ data, setShowPopUp }) {
       boxRef.current.style.left = `${left - wrapperX}px`
     }
     //boxRef.current.style.left = `${left - wrapperX}px`
-    //boxRef.current.style.top = `${e.clientY - deltaPos.current[1] - wrapperY}px`
   }
 
   const handleMouseUp = (e) => {
@@ -78,6 +77,13 @@ function Slider({ data, setShowPopUp }) {
         {data.map((element) => (
           <div onMouseUp={() => handleItemMouseUp(element.id)} key={element.name} className='slider_item'>
             <img draggable={false} src={element.image} alt='' />
+            <div className='slider_item_info'>
+              <p className='name'>{element.name}</p>
+              <div style={{ padding: '0 5px' }}>
+                <div className='series'>{element.series}</div>
+                <div className='brand'>{element.brand}</div>
+              </div>
+            </div>
           </div>
         ))}
       </div>

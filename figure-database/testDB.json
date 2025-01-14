@@ -38,7 +38,7 @@
       "brand": "APEX",
       "date": "2025-07-23",
       "price": "28160",
-      "about": "海外商品は、発売が長期延期されたり、発売中止となる可能性が国内商品と比べて高い傾向にあり、輸入流通ルートの違いから他店との入荷時期が異なる場合もございます。また当店入荷時にパッケージに傷みのあるものでも、メーカー交換ができませんので、パッケージ状態を気にされる方は、注文をご遠慮くださいますようお願いいたします。"
+      "about": "サイズ 約28.5cm。[セット内容]本体 [特典]色紙"
     },
     {
       "id": 5,
@@ -258,6 +258,36 @@
       "weight": 0
     },
     {
+      "id": 2,
+      "vote": [],
+      "weight": 0
+    },
+    {
+      "id": 3,
+      "vote": [],
+      "weight": 0
+    },
+    {
+      "id": 4,
+      "vote": [],
+      "weight": 0
+    },
+    {
+      "id": 5,
+      "vote": [],
+      "weight": 0
+    },
+    {
+      "id": 6,
+      "vote": [],
+      "weight": 0
+    },
+    {
+      "id": 7,
+      "vote": [],
+      "weight": 0
+    },
+    {
       "id": 8,
       "vote": [],
       "weight": 0
@@ -273,22 +303,7 @@
       "weight": 0
     },
     {
-      "id": 2,
-      "vote": [],
-      "weight": 0
-    },
-    {
-      "id": 3,
-      "vote": [],
-      "weight": 0
-    },
-    {
       "id": 11,
-      "vote": [],
-      "weight": 0
-    },
-    {
-      "id": 4,
       "vote": [],
       "weight": 0
     },
@@ -318,11 +333,6 @@
       "weight": 0
     },
     {
-      "id": 5,
-      "vote": [],
-      "weight": 0
-    },
-    {
       "id": 17,
       "vote": [],
       "weight": 0
@@ -333,22 +343,12 @@
       "weight": 0
     },
     {
-      "id": 6,
-      "vote": [],
-      "weight": 0
-    },
-    {
       "id": 19,
       "vote": [],
       "weight": 0
     },
     {
       "id": 20,
-      "vote": [],
-      "weight": 0
-    },
-    {
-      "id": 7,
       "vote": [],
       "weight": 0
     },
@@ -382,7 +382,216 @@
     {
       "userID": 0,
       "username": "testuser",
-      "pwd": "Farewell"
+      "pwd": "Farewell",
+      "list": {}
+    },
+    {
+      "userID": 1,
+      "username": "AAAA",
+      "pwd": "1234",
+      "list": {}
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "children": []
+    },
+    {
+      "id": "2",
+      "children": []
+    },
+    {
+      "id": "3",
+      "children": []
+    },
+    {
+      "id": "4",
+      "children": []
+    },
+    {
+      "id": "5",
+      "children": []
+    },
+    {
+      "id": "6",
+      "children": []
+    },
+    {
+      "id": "7",
+      "children": []
+    },
+    {
+      "id": "8",
+      "children": [
+        {
+          "id": 1736872844681,
+          "poster": "Adder",
+          "time": "Jan 03, 2025, 01:40",
+          "content": "awdad",
+          "children": []
+        },
+        {
+          "id": 1736872202961,
+          "poster": "Adder",
+          "time": "Jan 03, 2025, 01:30",
+          "content": "",
+          "children": [
+            {
+              "id": 1736872848062,
+              "poster": "Adder",
+              "time": "Jan 03, 2025, 01:40",
+              "content": "awdww",
+              "children": [
+                {
+                  "id": 1736872850169,
+                  "poster": "Adder",
+                  "time": "Jan 03, 2025, 01:40",
+                  "content": "dfgfg",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 1736871549272,
+          "poster": "Adder",
+          "time": "Jan 03, 2025, 01:19",
+          "content": "awdas\n",
+          "children": [
+            {
+              "id": 1736871557370,
+              "poster": "Adder",
+              "time": "Jan 03, 2025, 01:19",
+              "content": "wegfef",
+              "children": [
+                {
+                  "id": 1736871680488,
+                  "poster": "Adder",
+                  "time": "Jan 03, 2025, 01:21",
+                  "content": "wdadwd",
+                  "children": [
+                    {
+                      "id": 1736871684117,
+                      "poster": "Adder",
+                      "time": "Jan 03, 2025, 01:21",
+                      "content": "awdawd",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": 1736871675766,
+                  "poster": "Adder",
+                  "time": "Jan 03, 2025, 01:21",
+                  "content": "awdwd",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 1736871496535,
+          "poster": "Adder",
+          "time": "Jan 03, 2025, 01:18",
+          "content": "awdas",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "children": []
+    },
+    {
+      "id": "10",
+      "children": []
+    },
+    {
+      "id": "11",
+      "children": []
+    },
+    {
+      "id": "12",
+      "children": []
+    },
+    {
+      "id": "13",
+      "children": []
+    },
+    {
+      "id": "14",
+      "children": []
+    },
+    {
+      "id": "15",
+      "children": []
+    },
+    {
+      "id": "16",
+      "children": []
+    },
+    {
+      "id": "17",
+      "children": []
+    },
+    {
+      "id": "18",
+      "children": []
+    },
+    {
+      "id": "19",
+      "children": [
+        {
+          "id": 1736874819602,
+          "poster": "testuser",
+          "time": "Jan 03, 2025, 02:13",
+          "content": "wwww",
+          "children": [
+            {
+              "id": 1736874885617,
+              "poster": "AAAA",
+              "time": "Jan 03, 2025, 02:14",
+              "content": "sssss",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "children": []
+    },
+    {
+      "id": "21",
+      "children": []
+    },
+    {
+      "id": "22",
+      "children": []
+    },
+    {
+      "id": "23",
+      "children": [
+        {
+          "id": 1736869193211,
+          "poster": "Adder",
+          "time": "Jan 03, 2025, 00:39",
+          "content": "lol",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "children": []
+    },
+    {
+      "id": "25",
+      "children": []
     }
   ]
 }
